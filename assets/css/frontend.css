@@ -1,0 +1,136 @@
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.tawcvs-swatches {
+	overflow: hidden;
+	padding: 5px;
+}
+
+/*.tawcvs-swatches .swatch {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	position: relative;
+	opacity: 0.5;
+}*/
+
+.tawcvs-swatches .swatch-label {
+	background-color: #fff;
+	border: 1px solid #e9e9e9;
+	border-radius: 3px;
+	color: #333;
+	float: left;
+	height: 30px;
+	line-height: 28px;
+	padding: 0 10px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.tawcvs-swatches .swatch-label:hover {
+	border: 3px solid #f90;
+	border-radius: 4px;
+	line-height: 24px;
+	padding: 0 8px;
+	text-decoration: none;
+}
+
+.tawcvs-swatches .swatch-image {
+	display: block;
+	float: left;
+	height: 40px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	width: 40px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.tawcvs-swatches .swatch-image.selected, .tawcvs-swatches .swatch-image:hover {
+	border: 3px solid #f90;
+	border-radius: 4px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.tawcvs-swatches .swatch-image img {
+	display: inline-block;
+	max-height: 38px;
+	max-width: 38px;
+}
+
+.tawcvs-swatches .swatch-image.selected img, .tawcvs-swatches .swatch-image:hover img {
+	max-height: 34px;
+	max-width: 34px;
+}
+
+.tawcvs-swatches .swatch-label.selected, .tawcvs-swatches .swatch-label:hover {
+	border: 3px solid #f90;
+	border-radius: 4px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.tawcvs-swatches .swatch.disabled {
+	opacity: 0.1;
+}
+
+.tawcvs-swatches .swatch-color {
+	text-indent: -9999px;
+}
+
+.tawcvs-swatches .swatch-color.selected {
+	border-color: transparent;
+}
+
+.tawcvs-swatches .swatch-color.selected:before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	content: "";
+	width: 6px;
+	height: 10px;
+	display: block;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	position: absolute;
+	top: 8px;
+	left: 11px;
+}
+
+.tawcvs-swatches .swatch-label {
+	background-color: #fff;
+}
+
+.tawcvs-swatches .swatch-image {
+	overflow: hidden;
+}
+/*#progress_bar {
+	margin-top: 15px;
+	display: none;
+}*/
+.items-count p {
+	padding-bottom: 5px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	font-family: "Open Sans",Arial,sans-serif;
+}
